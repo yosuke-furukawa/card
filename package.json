@@ -1,0 +1,31 @@
+{
+  "name": "@yosuke-furukawa/card",
+  "version": "1.0.0",
+  "description": "Yosuke Furukawa's card",
+  "main": "index.js",
+  "bin": {
+    "card": "bin/card.js"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosuke-furukawa/card.git"
+  },
+  "keywords": [
+    "npm-card",
+    "card"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/card/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/card#readme",
+  "devDependencies": {
+    "boxen": "^7.0.1",
+    "colo": "^1.0.0"
+  }
+}
